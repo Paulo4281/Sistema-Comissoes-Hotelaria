@@ -1,0 +1,70 @@
+
+/* FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* ** */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fff4e4;
+}
+
+#footer-desenvolvido-por {
+    background-color: #ff9400;
+}
+
+
+#display-usuario {
+    background-color: #ff9400;
+}
+
+#container-logo-psp {
+    position: relative;
+    left: 60%;
+}
+
+@media screen and (max-width: 767px) {
+    #container-logo-psp {
+        position: relative;
+        left: 10%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+    #container-logo-psp {
+        position: relative;
+        left: 40%;
+    }
+}
+
+.unchangeable {
+    background-color: rgb(204, 204, 204);
+    color: #1d1d1d;
+}
+
+.status-pago {
+    background-color: #b1fab1;
+}
+
+/* -=-=-=-=- */
+
+#SuperADM-footer-desenvolvido-por {
+    background-color: #60d2ff;
+}
+
+#SuperADM-display-usuario {
+    background-color: #60d2ff;
+}
+
+#SuperADM-menu-btn {
+    background-color: #ff9400;
+}
+
+/* ** */
